@@ -1,10 +1,12 @@
 <h1>Song Recommendation Engine</h1>
 
 <h2>Description</h2>
-As part of my fulfillment for the UofT SCS Machine Learning course, I have worked on a project building a Spotify Song Recommendation Engine using Machine Learning. The data is procured from Spotify, and it has over 600k tracks between 1921 and 2020; each with 19 characteristics which include valence (musical positiveness that a track exudes), duration (this could be useful as a predictor, if for example, the listener exhibits patterns of only listening to 3-minute songs, this is something we can dig into deeper), artist(s), danceability, popularity, release date, and many more. This is a good, comprehensive dataset as there are many features which is beneficial for our machine learning training
-model.
 
-<br />
+This is my Machine Learning capstone project for the Data Science course at the University of Toronto School of Continuing Studies. This project aims to build a song recommendation system and is composed of the following elements:
+- Working with Spotipy API to obtain song data
+- Apply Unsupervised Learning Model to group similar songs into clusters.
+- Apply Supervised Learning Model to identify target cluster.
+- Perform simple random sampling within cluster to generate a playlist.
 
 <h2>Languages and Utilities Used</h2>
 
