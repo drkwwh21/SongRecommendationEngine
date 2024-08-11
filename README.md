@@ -18,7 +18,7 @@ This is my Machine Learning capstone project for the Data Science course at the 
 
 <h2>Data Source</h2>
 
-The Spotify tracks data is procured from Spotify and extracted via API. It was posted as part of a [Kaggle project](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks?select=artists.csv) and is composed of two datasets - Tracks.csv and Artist.csv, used to train and develop our model. Tracks.csv contains 587k unique values and has 20 song features composed of different data types (i.e. numerical, ordinal and categorical).
+The Spotify tracks data is procured from Spotify and extracted via Spotipy API. It was posted as part of a [Kaggle project](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks?select=artists.csv) and is composed of two datasets - Tracks.csv and Artist.csv, used to train and develop our model. Tracks.csv contains 587k unique values and has 20 song features composed of different data types (i.e. numerical, ordinal and categorical).
 
 <p align="center">
 Data Distribution: <br/>
